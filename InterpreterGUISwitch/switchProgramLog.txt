@@ -1,0 +1,486 @@
+Program State ID:6
+ExeStack:
+-> (a is int;(b is int;(c is int;(a=1;(b=2;(c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300))))))))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> a is int
+-> (b is int;(c is int;(a=1;(b=2;(c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300)))))))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> a is int
+-> (b is int;(c is int;(a=1;(b=2;(c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300)))))))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> (b is int;(c is int;(a=1;(b=2;(c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300)))))))
+SymTable:
+-> Key: a, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> (b is int;(c is int;(a=1;(b=2;(c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300)))))))
+SymTable:
+-> Key: a, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> b is int
+-> (c is int;(a=1;(b=2;(c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300))))))
+SymTable:
+-> Key: a, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> b is int
+-> (c is int;(a=1;(b=2;(c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300))))))
+SymTable:
+-> Key: a, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> (c is int;(a=1;(b=2;(c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300))))))
+SymTable:
+-> Key: a, Value: 0
+-> Key: b, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> (c is int;(a=1;(b=2;(c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300))))))
+SymTable:
+-> Key: a, Value: 0
+-> Key: b, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> c is int
+-> (a=1;(b=2;(c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300)))))
+SymTable:
+-> Key: a, Value: 0
+-> Key: b, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> c is int
+-> (a=1;(b=2;(c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300)))))
+SymTable:
+-> Key: a, Value: 0
+-> Key: b, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> (a=1;(b=2;(c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300)))))
+SymTable:
+-> Key: a, Value: 0
+-> Key: b, Value: 0
+-> Key: c, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> (a=1;(b=2;(c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300)))))
+SymTable:
+-> Key: a, Value: 0
+-> Key: b, Value: 0
+-> Key: c, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> a=1
+-> (b=2;(c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300))))
+SymTable:
+-> Key: a, Value: 0
+-> Key: b, Value: 0
+-> Key: c, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> a=1
+-> (b=2;(c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300))))
+SymTable:
+-> Key: a, Value: 0
+-> Key: b, Value: 0
+-> Key: c, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> (b=2;(c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300))))
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 0
+-> Key: c, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> (b=2;(c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300))))
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 0
+-> Key: c, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> b=2
+-> (c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300)))
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 0
+-> Key: c, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> b=2
+-> (c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300)))
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 0
+-> Key: c, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> (c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300)))
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 2
+-> Key: c, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> (c=5;(SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300)))
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 2
+-> Key: c, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> c=5
+-> (SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300))
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 2
+-> Key: c, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> c=5
+-> (SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300))
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 2
+-> Key: c, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> (SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300))
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 2
+-> Key: c, Value: 5
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> (SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300));print(300))
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 2
+-> Key: c, Value: 5
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300))
+-> print(300)
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 2
+-> Key: c, Value: 5
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> SWITCH(a * 10)
+CASE(b * c): (print(a);print(b)))
+CASE(10): (print(100);print(200)))
+DEFAULT: print(300))
+-> print(300)
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 2
+-> Key: c, Value: 5
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> (print(a);print(b))
+-> print(300)
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 2
+-> Key: c, Value: 5
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> (print(a);print(b))
+-> print(300)
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 2
+-> Key: c, Value: 5
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> print(a)
+-> print(b)
+-> print(300)
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 2
+-> Key: c, Value: 5
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> print(a)
+-> print(b)
+-> print(300)
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 2
+-> Key: c, Value: 5
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> print(b)
+-> print(300)
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 2
+-> Key: c, Value: 5
+Out:
+-> 1
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> print(b)
+-> print(300)
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 2
+-> Key: c, Value: 5
+Out:
+-> 1
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> print(300)
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 2
+-> Key: c, Value: 5
+Out:
+-> 2
+-> 1
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+-> print(300)
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 2
+-> Key: c, Value: 5
+Out:
+-> 2
+-> 1
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:6
+ExeStack:
+SymTable:
+-> Key: a, Value: 1
+-> Key: b, Value: 2
+-> Key: c, Value: 5
+Out:
+-> 300
+-> 2
+-> 1
+FileTable:
+HeapTable:
+------------------------------------------

@@ -1,0 +1,511 @@
+Program State ID:7
+ExeStack:
+-> (v is int;(a is Ref(int);(v=10;(new(a, 22);(FORK((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> v is int
+-> (a is Ref(int);(v=10;(new(a, 22);(FORK((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> v is int
+-> (a is Ref(int);(v=10;(new(a, 22);(FORK((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> (a is Ref(int);(v=10;(new(a, 22);(FORK((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> (a is Ref(int);(v=10;(new(a, 22);(FORK((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))))
+SymTable:
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> a is Ref(int)
+-> (v=10;(new(a, 22);(FORK((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> a is Ref(int)
+-> (v=10;(new(a, 22);(FORK((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> (v=10;(new(a, 22);(FORK((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+-> Key: a, Value: (0, int)
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> (v=10;(new(a, 22);(FORK((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))))
+SymTable:
+-> Key: a, Value: (0, int)
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> v=10
+-> (new(a, 22);(FORK((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+-> Key: a, Value: (0, int)
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> v=10
+-> (new(a, 22);(FORK((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+-> Key: a, Value: (0, int)
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> (new(a, 22);(FORK((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+-> Key: a, Value: (0, int)
+-> Key: v, Value: 10
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> (new(a, 22);(FORK((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a)))))
+SymTable:
+-> Key: a, Value: (0, int)
+-> Key: v, Value: 10
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> new(a, 22)
+-> (FORK((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+-> Key: a, Value: (0, int)
+-> Key: v, Value: 10
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> new(a, 22)
+-> (FORK((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+-> Key: a, Value: (0, int)
+-> Key: v, Value: 10
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> (FORK((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 10
+Out:
+FileTable:
+HeapTable:
+-> Key: 1, Value: 22
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> (FORK((wH(a, 30);(v=32;(print(v);print(rH(a))))));(print(v);print(rH(a))))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 10
+Out:
+FileTable:
+HeapTable:
+-> Key: 1, Value: 22
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> FORK((wH(a, 30);(v=32;(print(v);print(rH(a))))))
+-> (print(v);print(rH(a)))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 10
+Out:
+FileTable:
+HeapTable:
+-> Key: 1, Value: 22
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> FORK((wH(a, 30);(v=32;(print(v);print(rH(a))))))
+-> (print(v);print(rH(a)))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 10
+Out:
+FileTable:
+HeapTable:
+-> Key: 1, Value: 22
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> (print(v);print(rH(a)))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 10
+Out:
+FileTable:
+HeapTable:
+-> Key: 1, Value: 22
+BarrierTable:
+------------------------------------------
+Program State ID:9
+ExeStack:
+-> (wH(a, 30);(v=32;(print(v);print(rH(a)))))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 10
+Out:
+FileTable:
+HeapTable:
+-> Key: 1, Value: 22
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> (print(v);print(rH(a)))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 10
+Out:
+FileTable:
+HeapTable:
+-> Key: 1, Value: 22
+BarrierTable:
+------------------------------------------
+Program State ID:9
+ExeStack:
+-> (wH(a, 30);(v=32;(print(v);print(rH(a)))))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 10
+Out:
+FileTable:
+HeapTable:
+-> Key: 1, Value: 22
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> print(v)
+-> print(rH(a))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 10
+Out:
+FileTable:
+HeapTable:
+-> Key: 1, Value: 22
+BarrierTable:
+------------------------------------------
+Program State ID:9
+ExeStack:
+-> wH(a, 30)
+-> (v=32;(print(v);print(rH(a))))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 10
+Out:
+FileTable:
+HeapTable:
+-> Key: 1, Value: 22
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> print(v)
+-> print(rH(a))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 10
+Out:
+FileTable:
+HeapTable:
+-> Key: 1, Value: 22
+BarrierTable:
+------------------------------------------
+Program State ID:9
+ExeStack:
+-> wH(a, 30)
+-> (v=32;(print(v);print(rH(a))))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 10
+Out:
+FileTable:
+HeapTable:
+-> Key: 1, Value: 22
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> print(rH(a))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 10
+Out:
+-> 10
+FileTable:
+HeapTable:
+-> Key: 1, Value: 30
+BarrierTable:
+------------------------------------------
+Program State ID:9
+ExeStack:
+-> (v=32;(print(v);print(rH(a))))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 10
+Out:
+-> 10
+FileTable:
+HeapTable:
+-> Key: 1, Value: 30
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+-> print(rH(a))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 10
+Out:
+-> 10
+FileTable:
+HeapTable:
+-> Key: 1, Value: 30
+BarrierTable:
+------------------------------------------
+Program State ID:9
+ExeStack:
+-> (v=32;(print(v);print(rH(a))))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 10
+Out:
+-> 10
+FileTable:
+HeapTable:
+-> Key: 1, Value: 30
+BarrierTable:
+------------------------------------------
+Program State ID:7
+ExeStack:
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 10
+Out:
+-> 30
+-> 10
+FileTable:
+HeapTable:
+-> Key: 1, Value: 30
+BarrierTable:
+------------------------------------------
+Program State ID:9
+ExeStack:
+-> v=32
+-> (print(v);print(rH(a)))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 10
+Out:
+-> 30
+-> 10
+FileTable:
+HeapTable:
+-> Key: 1, Value: 30
+BarrierTable:
+------------------------------------------
+Program State ID:9
+ExeStack:
+-> v=32
+-> (print(v);print(rH(a)))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 10
+Out:
+-> 30
+-> 10
+FileTable:
+HeapTable:
+-> Key: 1, Value: 30
+BarrierTable:
+------------------------------------------
+Program State ID:9
+ExeStack:
+-> (print(v);print(rH(a)))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 32
+Out:
+-> 30
+-> 10
+FileTable:
+HeapTable:
+-> Key: 1, Value: 30
+BarrierTable:
+------------------------------------------
+Program State ID:9
+ExeStack:
+-> (print(v);print(rH(a)))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 32
+Out:
+-> 30
+-> 10
+FileTable:
+HeapTable:
+-> Key: 1, Value: 30
+BarrierTable:
+------------------------------------------
+Program State ID:9
+ExeStack:
+-> print(v)
+-> print(rH(a))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 32
+Out:
+-> 30
+-> 10
+FileTable:
+HeapTable:
+-> Key: 1, Value: 30
+BarrierTable:
+------------------------------------------
+Program State ID:9
+ExeStack:
+-> print(v)
+-> print(rH(a))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 32
+Out:
+-> 30
+-> 10
+FileTable:
+HeapTable:
+-> Key: 1, Value: 30
+BarrierTable:
+------------------------------------------
+Program State ID:9
+ExeStack:
+-> print(rH(a))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 32
+Out:
+-> 32
+-> 30
+-> 10
+FileTable:
+HeapTable:
+-> Key: 1, Value: 30
+BarrierTable:
+------------------------------------------
+Program State ID:9
+ExeStack:
+-> print(rH(a))
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 32
+Out:
+-> 32
+-> 30
+-> 10
+FileTable:
+HeapTable:
+-> Key: 1, Value: 30
+BarrierTable:
+------------------------------------------
+Program State ID:9
+ExeStack:
+SymTable:
+-> Key: a, Value: (1, int)
+-> Key: v, Value: 32
+Out:
+-> 30
+-> 32
+-> 30
+-> 10
+FileTable:
+HeapTable:
+-> Key: 1, Value: 30
+BarrierTable:
+------------------------------------------

@@ -1,0 +1,293 @@
+Program State ID:1
+ExeStack:
+-> (v is int;(v=2;print(v)))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> v is int
+-> (v=2;print(v))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> v is int
+-> (v=2;print(v))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> (v=2;print(v))
+SymTable:
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> (v=2;print(v))
+SymTable:
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> v=2
+-> print(v)
+SymTable:
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> v=2
+-> print(v)
+SymTable:
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> print(v)
+SymTable:
+-> Key: v, Value: 2
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> print(v)
+SymTable:
+-> Key: v, Value: 2
+Out:
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+SymTable:
+-> Key: v, Value: 2
+Out:
+-> 2
+FileTable:
+HeapTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> (v is int;(v=2;print(v)))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> v is int
+-> (v=2;print(v))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> v is int
+-> (v=2;print(v))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> (v=2;print(v))
+SymTable:
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> (v=2;print(v))
+SymTable:
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> v=2
+-> print(v)
+SymTable:
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> v=2
+-> print(v)
+SymTable:
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> print(v)
+SymTable:
+-> Key: v, Value: 2
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> print(v)
+SymTable:
+-> Key: v, Value: 2
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+SymTable:
+-> Key: v, Value: 2
+Out:
+-> 2
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> (v is int;(v=2;print(v)))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> v is int
+-> (v=2;print(v))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> v is int
+-> (v=2;print(v))
+SymTable:
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> (v=2;print(v))
+SymTable:
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> (v=2;print(v))
+SymTable:
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> v=2
+-> print(v)
+SymTable:
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> v=2
+-> print(v)
+SymTable:
+-> Key: v, Value: 0
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> print(v)
+SymTable:
+-> Key: v, Value: 2
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+-> print(v)
+SymTable:
+-> Key: v, Value: 2
+Out:
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
+Program State ID:1
+ExeStack:
+SymTable:
+-> Key: v, Value: 2
+Out:
+-> 2
+FileTable:
+HeapTable:
+BarrierTable:
+------------------------------------------
